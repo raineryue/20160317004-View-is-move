@@ -15,6 +15,7 @@
 		D50348601C9AB05900461D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D503485E1C9AB05900461D88 /* LaunchScreen.storyboard */; };
 		D503486B1C9AB05A00461D88 /* _0160317004_View_is_moveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D503486A1C9AB05A00461D88 /* _0160317004_View_is_moveTests.m */; };
 		D50348761C9AB05A00461D88 /* _0160317004_View_is_moveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50348751C9AB05A00461D88 /* _0160317004_View_is_moveUITests.m */; };
+		D50348851C9AB0B500461D88 /* MoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50348841C9AB0B500461D88 /* MoveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D50348711C9AB05A00461D88 /* 20160317004-View is moveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160317004-View is moveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50348751C9AB05A00461D88 /* _0160317004_View_is_moveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160317004_View_is_moveUITests.m; sourceTree = "<group>"; };
 		D50348771C9AB05A00461D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50348831C9AB0B500461D88 /* MoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveView.h; sourceTree = "<group>"; };
+		D50348841C9AB0B500461D88 /* MoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D50348541C9AB05900461D88 /* AppDelegate.m */,
 				D50348561C9AB05900461D88 /* ViewController.h */,
 				D50348571C9AB05900461D88 /* ViewController.m */,
+				D50348831C9AB0B500461D88 /* MoveView.h */,
+				D50348841C9AB0B500461D88 /* MoveView.m */,
 				D50348591C9AB05900461D88 /* Main.storyboard */,
 				D503485C1C9AB05900461D88 /* Assets.xcassets */,
 				D503485E1C9AB05900461D88 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				D50348581C9AB05900461D88 /* ViewController.m in Sources */,
 				D50348551C9AB05900461D88 /* AppDelegate.m in Sources */,
 				D50348521C9AB05900461D88 /* main.m in Sources */,
+				D50348851C9AB0B500461D88 /* MoveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
